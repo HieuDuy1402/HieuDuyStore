@@ -13,7 +13,7 @@ import CustomerReviews from "./components/CustomerReviews";
 import Brands from "./components/Brands";
 import { getBrands } from "@/lib/firestore/brands/read_server";
 import Footer from "./components/Footer";
-import FacebookMgs from "./components/Facebookmgs";
+import FacebookMgs from "./components/FacebookMgs";
 
 export const dynamic = 'force-dynamic'
 
