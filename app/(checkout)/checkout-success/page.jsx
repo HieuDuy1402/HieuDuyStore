@@ -5,7 +5,7 @@ import Link from "next/link";
 import SuccessMessage from "./components/SuccessMessage";
 
 const fetchCheckout = async (checkoutId) => {
-    const list = await adminDB
+  const list = await adminDB
     .collectionGroup("checkout_sessions")
     .where("id", "==", checkoutId)
     .get();
